@@ -1,7 +1,7 @@
 // src/components/ProductCard.tsx
 import { Link } from 'react-router-dom';
 import { MapPin, Box, Truck, CheckCircle } from 'lucide-react';
-import type { Product } from '../services/api';
+import type { Product } from '../types';
 
 interface ProductCardProps {
   product: Product;
