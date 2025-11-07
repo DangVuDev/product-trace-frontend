@@ -1,7 +1,8 @@
 // src/components/Timeline.tsx
 // src/components/Timeline.tsx
-import type { StatusHistory } from '../services/api';
+
 import { Box, Truck, CheckCircle, Package, Clock, MapPin } from 'lucide-react';
+import type { StatusHistory } from '../types';
 
 interface TimelineProps {
   history: StatusHistory[];
