@@ -1,7 +1,7 @@
 // src/services/api.ts
 import type {Product, UpdateStatusDTO, APIError } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api/product-trace';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://yeuanhdiem.ddns.net/api/product-trace';
 
 class APIService {
   private async handleResponse<T>(response: Response): Promise<T> {
